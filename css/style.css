@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+.animated {
+  animation-duration: 0.5s;
+}
+
+
+div.entete div#champRecherche {
+  position: relative;
+  width: 40%;
+  margin: auto;
+  padding-top: 150px;
+  text-align: center;
+}
+
+div.entete {
+  height: 475px;
+}
+
+div.entete h2 {
+  text-shadow: 0 0 5px #000;
+}
+
+div.entete img{
+  position: absolute;
+  width: 100%;
+  height: 500px;
+}
+
+div#champRecherche h2, div#champMotsClef h2 {
+  font-size: 48px;
+}
+
+div.partOne h2 {
+  color: #000;
+}
+
+div.partOne {
+  height: 500px;
+  background-color: #fff;
+  position: relative;;
+  text-align: center;
+}
+
+div.partOne div#champMotsClef {
+  width: 40%;
+  margin: auto;
+  padding-top: 170px;
+  text-align: center;
+}
+
+div.partOne input#motClefVoiture {
+  background-color: #232323;
+  color: #fff;
+}
+
+div#alrtRechercheVoit, div#alrtMotCleVoit, div#champMotsClef span.glyphicon, div#alrtSummer, div#alrtDate  {
+  display: none;
+}
+
+div.partTwo {
+  height: 500px;
+  background-color: #565656;
+  position: relative;;
+  text-align: center;
+}
+
+div.partTwo div.note-editor{
+  width: 700px;
+  margin: auto;
+  text-align: left;
+}
+
+div.partTwo div.note-toolbar{
+  text-align: center;
+  background-color: #565656;
+}
+
+div.partTwo div.note-toolbar .btn-default{
+  background-color: #565656;
+}
+
+div.partTwo div#champEditeur{
+  padding-top: 75px;
+}
+
+div.partTwo div#champEditeur div#alrtSummer {
+  width: 700px;
+  margin: auto;
+}
+
+div.partThree {
+  height: 500px;
+  background-color: #BABABA;
+  text-align: center;
+}
+
+div.partThree #champDate {
+  padding-top: 200px;
+  width: 50%;
+  margin: auto;
+}
+
+div.partThree #champDate h2 {
+  color: #000000;
+  text-shadow: 0 0 2px #fff;
+}
+
+div.partFour {
+  height: 500px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+div.partFour #champCouleur {
+  padding-top: 200px;
+  width: 50%;
+  margin: auto;
+}
+
+div.partFour #champCouleur h2 {
+  color: #000000;
+  text-shadow: 0 0 2px #fff;
+}
+
+div.partFour #champCouleur div#colorpick {
+    box-shadow: 0 0 2px #000;
+}
+
+div.partFour #champCouleur div#colorpick span {
+  background-color: #fff;
+}
+]

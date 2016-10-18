@@ -1,0 +1,105 @@
+<html>
+<!DOCTYPE html>
+<html lang='fr'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- meta et SEO -->
+    <meta name="description" content="contenu du site web">
+    <meta name="og:description" content="contenu du site web"> <!-- og: desciption spécifique pour les reseau sociaux -->
+    <meta name="http://toto.fr/monimage.jpg" property="og:image"> <!-- permet lorsque je partage un site sur un réseau social d'afficher une image spécifique dans le post, la deszcription qui va avec og:description -->
+<!-- Appel CSS et plugin -->
+    <!-- <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="all" /> -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.superhero.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="bower_components/mjolnic-bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="bower_components/summernote/dist/summernote.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="bower_components/tooltipster/css/tooltipster.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="bower_components/tooltipster/css/themes/tooltipster-shadow.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/redmond/jquery-ui.css" media="all" />
+
+<!-- Appel font -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+<!-- Appel css Perso -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <title>Titre de la page</title>
+  </head>
+  <body>
+    <div class="entete">
+      <img id="imgFront" src="img/route.jpg" class="img-responsive center-block " alt="Responsive image" />
+      <div id="champRecherche" class="form-group">
+        <h2>Choix de la voiture</h2>
+        <div class="form-groups has-feedback"> <!--has-success -->
+          <input type="text" class="form-control" id="rechercheVoit" placeholder="Saisissez le nom de la voiture">
+          <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+        </div>
+        <br>
+        <div id="alrtRechercheVoit" class="alert alert-warning" role="alert">...</div>
+      </div>
+    </div>
+    <div class="partOne">
+      <div id="champMotsClef" class="form-group">
+        <h2>Accroche</h2>
+        <div class="form-groups has-feedback"> <!--has-success -->
+          <input type="text" class="form-control" id="motClefVoiture" placeholder="Saisissez votre accroche">
+          <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+        </div>
+        <br>
+        <div id="alrtMotCleVoit" class="alert alert-warning" role="alert">...</div>
+      </div>
+    </div>
+    <div class="partTwo">
+      <div id="champEditeur">
+        <h2>Personnalisez votre message</h2>
+        <div id="summernote"></div>
+        <div id="alrtSummer" class="alert alert-danger" role="alert">...</div>
+      </div>
+    </div>
+    <div class="partThree">
+      <div id="champDate">
+        <h2>Date de sortie</h2>
+        <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+
+        <div id="alrtDate" class="alert alert-info" role="alert">...</div>
+      </div>
+    </div>
+    <div class="partFour">
+      <div id="champCouleur">
+        <h2>Choisissez votre couleur</h2>
+        <div id="colorpick" class="input-group colorpicker-component">
+            <input type="text" value="#00AABB" class="form-control" />
+            <span class="input-group-addon"><i></i></span>
+        </div>
+        <div id="alrtDate" class="alert alert-info" role="alert">...</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <a class="youtube" href="http://www.youtube.com/watch?v=4eYSpIz2FjU">title</a>
+    </div> <!-- end container -->
+<!-- Appel libray js et plugin -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/moment/min/moment.min.js"></script>
+<script type="text/javascript" src="bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery.youtubepopup.min.js"></script>
+<script type="text/javascript" src="bower_components/mjolnic-bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
+<script type="text/javascript" src="bower_components/placeholdem/placeholdem.min.js"></script>
+<script type="text/javascript" src="bower_components/summernote/dist/summernote.min.js"></script>
+<script type="text/javascript" src="bower_components/tooltipster/js/jquery.tooltipster.min.js"></script>
+  <!-- Appel mon js -->
+    <script type="text/javascript" src="js/jqueryPlugin.js"></script>
+  </body>
+</html>
